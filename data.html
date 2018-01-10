@@ -1,0 +1,19 @@
+---
+layout: page
+title: Data
+---
+
+<div id="data">
+
+<ul>
+{% for file in site.data.data %}
+  <li>
+    <a href="{{ file.data }}">
+      {{ file.data }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+  
+</div>
+

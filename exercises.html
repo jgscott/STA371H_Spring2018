@@ -1,0 +1,20 @@
+---
+layout: page
+title: Exercises
+---
+
+<div id="scripts">
+
+<ul>
+{% for exercise in site.data.exercises %}
+  <li>
+    <a href="{{ exercise.pdf }}">
+      {{ exercise.pdf }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+  
+</div>
+
+

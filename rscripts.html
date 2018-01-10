@@ -1,0 +1,20 @@
+---
+layout: page
+title: R Scripts
+---
+
+<div id="scripts">
+
+<ul>
+{% for script in site.data.r %}
+  <li>
+    <a href="{{ script.r }}">
+      {{ script.r }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+  
+</div>
+
+
