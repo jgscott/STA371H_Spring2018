@@ -20,4 +20,4 @@ Teaching Assistant: David Puelz (contact through Canvas)
 
 ### Software/homework help session
 
-Tentatively scheduled for Wednesdays 5-7 PM (room TBA)  
+Wednesdays from 4-6 PM in GSB 2.120.  David will answer questions about R, the exercises, etc.  
