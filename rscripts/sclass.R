@@ -16,3 +16,8 @@ axis(2, at = seq(0, 120000, by=10000), las=1)
 barplot(mean(price-25000 ~ condition, data = sclass), las=1,
 	main="Mercedes S-class: price by condition", axes=FALSE)
 axis(2, at = seq(0, 120000, by=10000), labels = seq(0, 120000, by=10000) + 25000, las=1)
+
+
+xyplot(price ~ mileage | condition, data=sclass)
+xyplot(price ~ mileage | factor(year), data=sclass)
+bwplot(price ~ condition | region, data=sclass)
