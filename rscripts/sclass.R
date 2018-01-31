@@ -20,4 +20,8 @@ axis(2, at = seq(0, 120000, by=10000), labels = seq(0, 120000, by=10000) + 25000
 
 xyplot(price ~ mileage | condition, data=sclass)
 xyplot(price ~ mileage | factor(year), data=sclass)
+xyplot(price ~ mileage | soundSystem, data=sclass)
 bwplot(price ~ condition | region, data=sclass)
+
+xyplot(price ~ mileage | trim, data=sclass)
+bwplot(price ~ trim | factor(year), data=sclass)

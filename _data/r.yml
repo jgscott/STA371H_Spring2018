@@ -1,2 +1,3 @@
 - r: afc.R
+- r: sclass_predinterval.R
 - r: sclass.R
