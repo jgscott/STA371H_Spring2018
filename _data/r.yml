@@ -1,3 +1,7 @@
 - r: afc.R
+- r: hetpred.R
+- r: milk.R
 - r: sclass_predinterval.R
 - r: sclass.R
+- r: solder.R
+- r: TenMileRace.R

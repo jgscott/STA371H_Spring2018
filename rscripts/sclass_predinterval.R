@@ -32,4 +32,6 @@ abline(lm1)
 # move up/down 1 residual standard deviation
 abline(mybeta[1] - sigma, mybeta[2], col='grey')
 abline(mybeta[1] + sigma, mybeta[2], col='grey')
+abline(mybeta[1] - 2*sigma, mybeta[2], col='red')
+abline(mybeta[1] + 2*sigma, mybeta[2], col='red')
 
