@@ -3,11 +3,12 @@ summary(solder)
 # An ANOVA table
 source('http://jgscott.github.io/teaching/r/utils/class_utils.R')
 
-lm0 = lm(skips ~ Opening + Solder, data= solder)
+lm0 = lm(skips ~ Solder + Opening + Mask, data= solder)
 coef(lm0)
 
 lm1 = lm(skips ~ Opening + Solder + Opening:Solder, data= solder)
 coef(lm1)
+simple_anova(lm1)
 
 boxplot(skips ~ Solder:Opening, data=solder)
 
