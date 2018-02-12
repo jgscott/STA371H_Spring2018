@@ -1,5 +1,6 @@
 - r: afc.R
 - r: hetpred.R
+- r: LifeExpectancy.R
 - r: milk.R
 - r: sclass_predinterval.R
 - r: sclass.R
