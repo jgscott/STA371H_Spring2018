@@ -13,10 +13,10 @@ title: Resources
 
 We won't get to Part II until after Spring Break.  I'm still tinkering a bit with that part based on feedback from last year's course, so it's not ready yet.  But I'll post it well before you need it.  
 
-<!-- ### Old exams  
+### Old exams
 
-[Midterm from 2016]({{ site.baseurl }}/files/midterm_STA371H_spring2016-share.pdf) 
- -->
+[Midterm from 2017]({{ site.baseurl }}/files/midterm_STA371H_spring2017.pdf) and [grading guidelines]({{ site.baseurl }}/files/midterm_STA371H_spring2017-guide.pdf)
+
 
 ### Other readings
 
