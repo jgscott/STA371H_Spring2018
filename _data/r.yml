@@ -1,4 +1,5 @@
 - r: afc.R
+- r: GasPrices.R
 - r: hetpred.R
 - r: LifeExpectancy.R
 - r: milk.R
@@ -6,3 +7,4 @@
 - r: sclass.R
 - r: solder.R
 - r: TenMileRace.R
+- r: ut2000_boot.R
