@@ -33,6 +33,9 @@ bwplot(Cents ~ Brand, data=GasPrices)
 bwplot(Cents ~ Stoplight, data=GasPrices)
 
 
+bwplot(Cents ~ Restaurant, data=GasPrices)
+
+
 # Interactions?
 xyplot(Cents ~ Income | Highway, data=GasPrices)
 xyplot(Cents ~ Income | Competitors, data=GasPrices)
