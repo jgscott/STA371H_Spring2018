@@ -21,7 +21,7 @@ risk_control/risk_chemo
 
 # How to assess whether this result is "surprisingly different" from zero?
 # idea: "shuffle the cards" and see how variable the relative risk is
-tab_shuffle = xtabs(~chemo + shuffle(recur), data=colon_cancer)
+tab_shuffle = xtabs(~shuffle(chemo) + recur, data=colon_cancer)
 tab_shuffle
 risk_control_shuff = tab_shuffle[1,2]/( tab_shuffle[1,1] + tab_shuffle[1,2] )
 risk_chemo_shuff = tab_shuffle[2,2]/( tab_shuffle[2,1] + tab_shuffle[2,2] )
