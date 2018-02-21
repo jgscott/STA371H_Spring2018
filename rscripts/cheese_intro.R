@@ -37,7 +37,3 @@ mean(disp ~ store, data=cheese)
 # among stores? 
 
 # And what about price? Is it a confounder, too?
-plot(vol ~ price, data=cheese)
-cor(vol ~ price, data=cheese)
-boxplot(price ~ disp, data=cheese)
-
