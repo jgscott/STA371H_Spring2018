@@ -16,6 +16,7 @@
 - data: challenger.csv
 - data: cheese.csv
 - data: chymotrypsin.csv
+- data: colon_cancer.csv
 - data: consumerexp.csv
 - data: cps85.csv
 - data: creatinine.csv
