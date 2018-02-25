@@ -5,6 +5,8 @@
 - r: hetpred.R
 - r: LifeExpectancy.R
 - r: milk.R
+- r: saratoga_stepwise.R
+- r: saratoga_test.R
 - r: sclass_predinterval.R
 - r: sclass.R
 - r: solder.R
