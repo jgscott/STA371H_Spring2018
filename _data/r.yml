@@ -1,10 +1,13 @@
 - r: afc.R
+- r: cheese_demand.R
 - r: cheese_intro.R
 - r: colon_cancer.R
 - r: GasPrices.R
 - r: hetpred.R
 - r: LifeExpectancy.R
 - r: milk.R
+- r: overtime.R
+- r: predimed_test.R
 - r: saratoga_stepwise.R
 - r: saratoga_test.R
 - r: sclass_predinterval.R
