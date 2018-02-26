@@ -3,6 +3,9 @@ data(SaratogaHouses)
 source('http://jgscott.github.io/teaching/r/utils/class_utils.R')
 
 # Baseline model
+lm_silly = lm(price ~  lotSize + fireplaces, data=SaratogaHouses)
+rsquared(lm_silly)
+
 lm0 = lm(price ~ livingArea + lotSize + fireplaces, data=SaratogaHouses)
 rsquared(lm0)
 
@@ -28,13 +31,6 @@ rsquared(lm_shuffledlivingArea)
 lm1 = lm(price ~ livingArea + lotSize + fireplaces + fuel, data=SaratogaHouses)
 coef(lm1)
 rsquared(lm1)
-
-boot1 = do(1000)*{
-  lm(price ~ livingArea + lotSize + fireplaces + fuel, data=resample(SaratogaHouses))
-}
-
-confint(boot1)
-
 
 # one shuffled model
 lm_shuff = lm(price ~ livingArea + lotSize + fireplaces + shuffle(fuel), data=SaratogaHouses)
