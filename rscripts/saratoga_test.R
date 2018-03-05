@@ -48,8 +48,8 @@ perm1 = do(2000)*{
 }
 head(perm1)
 
-hist(perm1$r.squared, 20)
-
+hist(perm1$r.squared, 20, xlim=c(0.51, 0.518))
+abline(v = rsquared(lm1), col='red')
 # The quantile
 qdata(perm1$r.squared, p = 0.95)
 
