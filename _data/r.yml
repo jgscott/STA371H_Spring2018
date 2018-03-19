@@ -3,6 +3,7 @@
 - r: cheese_intro.R
 - r: colon_cancer.R
 - r: GasPrices.R
+- r: green_match.R
 - r: hetpred.R
 - r: LifeExpectancy.R
 - r: milk.R
