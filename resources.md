@@ -9,9 +9,8 @@ title: Resources
 
 ### Course packet
 
-[Part I of the course packet is here.]({{ site.baseurl }}/files/DataScience_Part1.pdf) 
+[The course packet is here.]({{ site.baseurl }}/files/DataScience.pdf) 
 
-We won't get to Part II until after Spring Break.  I'm still tinkering a bit with that part based on feedback from last year's course, so it's not ready yet.  But I'll post it well before you need it.  
 
 ### Old exams
 
