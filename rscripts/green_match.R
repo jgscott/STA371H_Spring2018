@@ -53,3 +53,25 @@ mean(cluster_rent ~ green_rating, data= green_matched)
 # to further adjust for any confounding/imbalances
 lm1 = lm(RevPSF ~ age + class_a + class_b + cluster_rent + green_rating, data = green_matched)
 summary(lm1)
+
+
+#### With more covariates
+
+# Step 1:
+# Find matching pairs based on age and building class
+mymatch2 = matchit(green_rating ~ age + class_a + class_b + cluster_rent + renovated + amenities + heating_costs, data = green)
+
+# Step 2: check covariate balance
+summary(mymatch2)
+
+# Extract only the matched pairs
+green_matched2 = match.data(mymatch2)
+
+# Step 3: run an analysis on the matched data.
+# Here we perform a simple difference-of-means 
+# analysis on the matched data only
+mean(RevPSF ~ green_rating, data= green_matched2)
+
+lm2 = lm(RevPSF ~ age + class_a + class_b + cluster_rent + renovated + amenities + heating_costs + green_rating, data = green_matched2)
+
+coef(lm2)
