@@ -7,7 +7,9 @@
 - r: hetpred.R
 - r: LifeExpectancy.R
 - r: milk.R
+- r: montecarlo_normal.R
 - r: overtime.R
+- r: parametric_probmodels.R
 - r: predimed_test.R
 - r: saratoga_stepwise.R
 - r: saratoga_test.R
