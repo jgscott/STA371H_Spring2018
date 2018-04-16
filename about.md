@@ -4,7 +4,7 @@ title: About the course
 permalink: /about/
 ---
 
-## STA 371: Statistics and Modeling (Spring 2017)
+## STA 371: Statistics and Modeling (Spring 2018)
 
 STA 371H is an honors course on statistical modeling and decision analysis for
 students in the Business Honors Program at UT-Austin.  Use the nav bar above to access all course materials.
