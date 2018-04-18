@@ -1,10 +1,39 @@
 library(mosaic)
 
-# Modeling a risky asset with a positive expected return
+# Let's simulate three years of growth in a portfolio
+# that earns 6% interest
+# We start with some initial wealth
+Wealth = 10000
+
+# Now we "update"/overwrite the value of Wealth three times
+Wealth = Wealth * (1 + 0.06) # year 1
+Wealth = Wealth * (1 + 0.06) # year 2
+Wealth = Wealth * (1 + 0.06) # year 3
+
+# Let's accomplish the same thing with a for loop
+Wealth = 10000
+for(year in 1:3) {
+  # We update the Wealth variable each pass through the for loop
+  Wealth = Wealth * (1 + 0.06)
+}
+Wealth
+
+
+# The nice thing about the for loop:
+# you use the same code for any length of your investment horizon.
+Wealth = 10000
+Horizon = 10
+for(year in 1:Horizon) {
+  Wealth = Wealth * (1 + 0.06)
+}
+Wealth
+
+
+# Now let's make things more realistic:
+# we'll invest in a risky asset with a positive expected return
 ReturnAvg = 0.0653
 ReturnSD = 0.195
 Horizon = 40
-
 
 # Simulate 40 years of investment in the stock market
 # Try the following block of code several times
