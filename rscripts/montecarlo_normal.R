@@ -22,7 +22,7 @@ Wealth
 # The nice thing about the for loop:
 # you use the same code for any length of your investment horizon.
 Wealth = 10000
-Horizon = 10
+Horizon = 45
 for(year in 1:Horizon) {
   Wealth = Wealth * (1 + 0.06)
 }

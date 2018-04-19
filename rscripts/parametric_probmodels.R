@@ -55,6 +55,10 @@ ppois(2, lambda=1.6)
 # What about for Man U?  X_M ~ Poisson(1.3)
 ppois(2, lambda=1.3)
 
+dpois(2, lambda=1.6)
+dpois(1, lambda=1.3)
+dpois(2, lambda=1.6)*dpois(1, lambda=1.3)
+  
 # What is the probability of a 1-1 tie, assuming independence?
 # Multiply the individual probabilities for the joint probability.
 dpois(1, lambda=1.6) * dpois(1, lambda=1.3)
