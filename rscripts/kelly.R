@@ -4,7 +4,7 @@
 initial_wealth = 10000
 rounds = 10000
 
-frac = 0.1 # how much of wealth is wagered each round
+frac = 0.04 # how much of wealth is wagered each round
 runningwealth = rep(0, rounds) # a placeholder for the result
 
 # Simulate 10000 rounds of betting

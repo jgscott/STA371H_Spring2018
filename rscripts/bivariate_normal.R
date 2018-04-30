@@ -17,6 +17,8 @@ rho = -0.1
 returns = rbvnorm(1000, mu1, mu2, sigma1, sigma2, rho)
 plot(returns)
 
+rbvnorm(1, mu1, mu2, sigma1, sigma2, rho)
+
 # the marginal distributions
 hist(returns[,1])
 hist(returns[,2])

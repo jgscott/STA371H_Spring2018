@@ -31,7 +31,7 @@ NumericVector sim_path(int N, double frac, double p_win, double W0) {
 # Parameters of simulation
 n_rounds = 10000
 frac = 0.10
-p_win = 0.52
+p_win = 0.54
 W0 = 10000
 
 # simulate a single wealth trajectory
