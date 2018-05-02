@@ -114,7 +114,7 @@ sim1 = do(1000)*{
 }
 
 head(sim1)
-hist(sim1[,n_days], 25)
+hist(sim1[,n_days], 30)
 
 # Profit/loss
 mean(sim1[,n_days])

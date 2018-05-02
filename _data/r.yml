@@ -1,5 +1,6 @@
 - r: afc.R
 - r: bivariate_normal.R
+- r: challenger.R
 - r: cheese_demand.R
 - r: cheese_intro.R
 - r: colon_cancer.R
